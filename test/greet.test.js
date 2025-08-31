@@ -5,7 +5,7 @@ const greet = require("../greet");
 describe("greet", () =>{
 
     it("greets in italian", () => {
-        assert.strictEqual("Ciao Guy!", greet("Guy"));
+        assert.strictEqual("Hello Guy!", greet("Guy"));
     });
 
 });
