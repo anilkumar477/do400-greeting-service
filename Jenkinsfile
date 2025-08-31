@@ -24,7 +24,7 @@ pipeline{
         stage("Deploy"){
             steps{
                 sh '''
-                   oc project shigve-deploy-strategies \
+                   oc project shigve-deploy-strategies 
                    oc start-build greeting-strategy --follow --wait
                 '''
             }
